@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="manifest" href="manifest.json">
     <title>StudySpark - Homework Reminder</title>
 
     <style>
@@ -216,6 +217,10 @@ function updateProgress(){
 }
 
 </script>
-
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
 </body>
 </html>
