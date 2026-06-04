@@ -9,15 +9,36 @@
 "start_url": "/Studyspark/",
 "theme_color": "#4caf50",
 "description": "Smart homework reminder app for students",
+
 "icons": [
 {
 "src": "launchericon-192x192.png",
 "sizes": "192x192",
-"type": "image/png"
+"type": "image/png",
+"purpose": "any maskable"
 },
 {
 "src": "launchericon-512x512.png",
 "sizes": "512x512",
+"type": "image/png",
+"purpose": "any maskable"
+}
+],
+
+"screenshots": [
+{
+"src": "screenshot1.png",
+"sizes": "1280x720",
+"type": "image/png"
+},
+{
+"src": "screenshot2.png",
+"sizes": "1280x720",
+"type": "image/png"
+},
+{
+"src": "screenshot3.png",
+"sizes": "1280x720",
 "type": "image/png"
 }
 ]
